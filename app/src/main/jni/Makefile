@@ -3,10 +3,10 @@ include Application.mk
 ##################################################
 ### SET THE PATH TO YOUR ANDROID NDK DIRECTORY ###
 ##################################################
-NDK_ROOT=$(HOME)/android-ndk
+NDK_ROOT= "D:/ProgramFiles/Android/sdk/ndk-build"
 ##################################################
 
-NDK_BUILD=$(NDK_ROOT)/ndk-build
+NDK_BUILD=$(NDK_ROOT)
 JNI_PATH=$(shell pwd)
 CC=$(shell $(NDK_ROOT)/ndk-which gcc)
 LIBDIR=$(JNI_PATH)/../obj/local/armeabi
