@@ -1,3 +1,20 @@
+# MOJA ZMIANY
+
+* Zbudowano w oparciu o aktualne SDK megaApi
+* Wyłączono task makeFile jni przez co projekt w ogóle wstaje
+* Wykomentowano metody których nie ma w SDK (meganz nie odpisał dlaczego tak jest)
+
+# CO TRZEBA ZROBIC
+
+* Trzeba wyciągnąć bindingi i skompilowane sdk i przykryć to jakimś interfejsem
+* Trzeba zrobić jakiś test uploadu i downloadu i takich pierdół
+
+# PROBLEMY
+
+* Nieziemski burdel w kodzie, brakujące metody, komentarze, kopalnia złych praktyk
+* NATYWNE SDK które jest bardzo masywne, nie wiem jak go zgrabnie przerzucić na nasz web
+
+
 MEGA Android Client
 ================
 
